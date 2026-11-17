@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Recursive Tab Grouper",
+  "version": "1.0.0",
+  "description": "Automatically groups tabs opened from other tabs into the same tab group.",
+  "permissions": [
+    "tabGroups"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
